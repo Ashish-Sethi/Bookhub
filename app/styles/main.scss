@@ -89,3 +89,31 @@ body {
     border-bottom: 0;
   }
 }
+
+@media screen and  (min-width: 1200px) {
+  .container {
+      width: 1170px;
+      max-width: 1170px;
+  }
+}
+
+.singlebook{
+    clear: both;
+    cursor: pointer;
+    display: inline-block;
+    width: 33%;
+    border-radius: 4px;
+    color: #333;
+}
+.panel{
+    margin: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+.bookImg{
+  display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 300px;
+    height: auto;
+}
